@@ -1,0 +1,44 @@
+body {
+  background-color: #212121;
+  color: #e0e0e0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+#tabs, #content {
+  margin: 0 1em;
+  width: 100%;
+}
+
+#tabs button {
+  background-color: #e0e0e0;
+  border: 3px solid #008000;
+  border-top: none;
+  border-radius: 0 0 0.5em 0.5em;
+  padding: 0 1em;
+}
+
+#tabs button:hover {
+  border-color: blue;
+}
+
+#tabs button:active {
+  background-color: #212121;
+  color: #e0e0e0;
+}
+
+#content {
+  text-align: center;
+}
+
+#content img {
+  border: 5px solid green;
+  width: 50%;
+}
+
+#content p {
+  text-align: left;
+}
