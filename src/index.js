@@ -1,30 +1,32 @@
-import landing_page from './pages/landing-page';
-import contact_page from './pages/contact-page';
-import menu_page from './pages/menu-page';
+import 'normalize.css';
+import './styles/app.css';
+import landingPage from './pages/landing';
+import contactPage from './pages/contact';
+import menuPage from './pages/menu';
 
 const content = document.getElementById('content');
 function clearContent() {
-  while(content.firstChild){
+  while (content.firstChild) {
     content.removeChild(content.firstChild);
   }
 }
 
-const landing_tab = document.getElementById('landing-tab');
-landing_tab.addEventListener('click', () => {
+const landingTab = document.getElementById('landing-tab');
+landingTab.addEventListener('click', () => {
   clearContent();
-  landing_page();
+  landingPage();
 });
 
-const contact_tab = document.getElementById('contact-tab');
-contact_tab.addEventListener('click', () => {
+const contactTab = document.getElementById('contact-tab');
+contactTab.addEventListener('click', () => {
   clearContent();
-  contact_page();
+  contactPage();
 });
 
-const menu_tab = document.getElementById('menu-tab');
-menu_tab.addEventListener('click', () => {
+const menuTab = document.getElementById('menu-tab');
+menuTab.addEventListener('click', () => {
   clearContent();
-  menu_page();
+  menuPage();
 });
 
-landing_page();
+landingPage();
