@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/MidgeOnGithub/js-restaurant-page#readme",
   "devDependencies": {
-    "css-loader": "^3.2.0",
+    "css-loader": "^6.8.1",
     "eslint": "^6.3.0",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.18.2",
